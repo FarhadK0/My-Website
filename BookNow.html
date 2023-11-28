@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Now | Hotel Sunshine</title>
+    <link rel="stylesheet" href="booknow.css">
+</head>
+<body>
+	<header>
+		<h1>Book Now</h1>
+	</header>
+	<nav>
+		<a href="Homepage.html">Home</a>
+		<a href="Rooms.html">Rooms</a>
+		<a href="AboutUs.html">About Us</a>
+		<a href="#">Contact Us</a>
+	</nav>
+	<div class="container">
+		<h1>Book Your Stay</h1>
+		<p>Please fill out the form below to book your stay with us.</p>
+		<form action="#" method="POST">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="checkin">Check-in Date:</label>
+			<input type="date" id="checkin" name="checkin" required>
+
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required>
+			
+            <label for="room-type">Room Type:</label>
+		<select id="room-type" name="room-type" required>
+			<option value="" disabled selected>Select a room type</option>
+			<option value="single">Single</option>
+			<option value="double">Double</option>
+			<option value="deluxe">Deluxe</option>
+		</select>
+		<label for="message">Additional Requests:</label>
+		<textarea id="message" name="message"></textarea>
+
+		<a href="Payment.html" class="submit">Go To Payment</a>
+        </form>
+    </div>
+</body>
+</html>

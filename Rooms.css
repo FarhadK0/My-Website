@@ -1,0 +1,74 @@
+body{
+    background-image: url(https://img.freepik.com/free-photo/comfortable-decor-luxury-furniture-light_1203-4995.jpg?w=900&t=st=1684265537~exp=1684266137~hmac=a05587a994245764803383e514316de91cec096e27776b8f8af8607a18294d72);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+h1{
+    color:rgb(40, 52, 116);
+    font-style: italic;
+    text-align: center;
+    background-color: rgb(82, 167, 117);
+}
+.container{
+    
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 3%;
+
+}
+.cardTitle{
+    color: rgb(192, 59, 36);
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    width: 80%;
+    text-align: center;
+   border-radius: 10%;
+}
+.CardImage{
+    width: 100%;
+   border-style: groove; 
+}
+.submit{
+    margin: 20px;
+    color: white;
+    
+    font-style: normal;
+   
+   
+}
+p{
+    font-size: larger;
+    color: rgb(0, 0, 0);
+
+}
+.submit:hover{
+    color: cadetblue;
+}
+.price{
+    color: brown;
+    font-family: cursive;
+    font-size: large;
+}
+
+a{
+    
+    font-size: large;
+    color: rgb(0, 0, 0);
+    margin: 20%;
+}
+a:hover{
+    color: antiquewhite;
+}

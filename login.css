@@ -1,0 +1,117 @@
+body {
+	background-image: url(https://images.unsplash.com/photo-1615880484746-a134be9a6ecf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.loginbox{
+	width: 320px;
+	height: 420px;
+	background: transparent;
+	color: #feffff;
+	font-size: larger;
+	font-style: italic;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	outline: #000000;
+	outline-style: groove;
+
+}
+.login{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: 100px;
+
+}
+
+
+
+h1 {
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.loginbox p{
+	color: #fc0404;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.loginbox input{
+	
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+position: relative;
+width: 100%;
+padding: 20px 10px 10px;
+background: transparent;
+outline: #e9e9e9;
+outline-style: double;
+border: none;
+box-shadow: none;
+color: #ffffff;
+
+}
+.submit
+{
+	color: #ffffff;
+	border: none;
+	outline: #e9e9e9;
+	outline-style: double;
+	padding: 9px 25px;
+	background: transparent;
+	cursor: pointer;
+	font-size: 0.9em;
+	border-radius: 4px;
+	font-weight: 600;
+	width: 100px;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+
+.submit:hover
+{
+	cursor: pointer;
+	background: #000000;
+	color: #ffffff;
+}
+
+
+
+nav{
+	display: flex;
+	justify-content: center;
+	background-color: rgb(58, 61, 110);
+	
+}
+nav a {
+    color: #e9e9e9;
+    padding: 10px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+}
+nav a:hover{
+	color: #000000;
+	
+}
+
+
+
